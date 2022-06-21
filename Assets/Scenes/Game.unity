@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1354,7 +1354,7 @@ MonoBehaviour:
     type: 3}
   ContadorRojo: {fileID: 0}
   ContadorAzul: {fileID: 0}
-  TimeToFinish: 30
+  TimeToFinish: 90
   ContadorText: {fileID: 144753713}
   TiempoToText: 0
 --- !u!4 &893818229
@@ -1715,7 +1715,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 487145659f1f64349b08f94cda88d98f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1751,7 +1751,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200519328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.11, z: -15.48}
+  m_LocalPosition: {x: 0, y: -0.03, z: -15.48}
   m_LocalScale: {x: 0.39351088, y: 1.0055, z: 0.77523}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3084,7 +3084,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 487145659f1f64349b08f94cda88d98f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3120,7 +3120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017568581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.11, z: 15.53}
+  m_LocalPosition: {x: 0, y: -0.03, z: 15.53}
   m_LocalScale: {x: 0.39351088, y: 1.0055, z: 0.77523}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3386,6 +3386,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.4618376
       objectReference: {fileID: 0}
+    - target: {fileID: 2801582770469618202, guid: a82de4742ae22b94198a705e196ab367,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.05861672
+      objectReference: {fileID: 0}
     - target: {fileID: 6526340206471158796, guid: a82de4742ae22b94198a705e196ab367,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3408,7 +3413,7 @@ PrefabInstance:
     - target: {fileID: 1687421356314243642, guid: d09fafa3eaa21e844a585fca56144d0c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.178
+      value: 0.236
       objectReference: {fileID: 0}
     - target: {fileID: 1687421356314243642, guid: d09fafa3eaa21e844a585fca56144d0c,
         type: 3}
@@ -3459,6 +3464,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0.592316
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687421356314243642, guid: d09fafa3eaa21e844a585fca56144d0c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0680632
       objectReference: {fileID: 0}
     - target: {fileID: 2376195166299526061, guid: d09fafa3eaa21e844a585fca56144d0c,
         type: 3}
